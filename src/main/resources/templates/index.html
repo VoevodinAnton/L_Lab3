@@ -2,9 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+
+    <!--TODO: ПОДКЛЮЧИТЬ CSS ПО ДЖАВОВСКИ!-->
+    <link href='index.css' rel="stylesheet">
 </head>
 <body>
+<div class="header">
+    <h1>Сложение чисел (Вариант #7)</h1>
+</div>
 
+<div>
+    <div class="content">
+        <p>
+            Введите числа, которые требуется сложить:
+        </p>
+        <!--Здесь допиши тип формы и куда ведет-->
+        <form>
+            <li>
+                <input type="text" name="input-1" placeholder="Поле для ввода первого слагаемого" required pattern="^[ 0-9]+$">
+                <input type="text" name="input-2" placeholder="Поле для ввода второго слагаемого" required pattern="^[ 0-9]+$">
+            </li>
+            <li>
+                <button>Вычислить</button>
+            </li>
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    <h1><i>Смольникова Елена, гр. 6406</i></h1>
+</div>
 </body>
 </html>

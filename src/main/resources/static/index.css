@@ -1,0 +1,76 @@
+/* Стиль для страницы */
+body {
+    background-color: whitesmoke;
+    font-size: 30px;
+}
+
+/* Стиль для класса header */
+.header {
+    background: linear-gradient(-40deg, whitesmoke, rgb(122, 111, 111));
+}
+
+/* Стиль для Загаловка h1 */
+.header h1 {
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+
+/* класс content */
+.content {
+    margin-top: 10%;
+    text-align: center;
+}
+
+/* Стиль для списка элементов */
+.content li {
+    list-style: none;
+    margin: 5px;
+}
+
+/* Стиль для полей ввода */
+.content input {
+    width: 20%;
+    height: 30px;
+    /* border: 2px solid; */
+}
+
+.content input:invalid:not(:placeholder-shown) {
+    border: 2px solid red;
+}
+
+
+/* Стиль для кнопки */
+.content button {
+    margin-top: 10px;
+    width: 20%;
+    height: 30px;
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid rgb(122, 111, 111);
+    transition-duration: 0.4s;
+}
+
+/* При наведении курсора на кнопку */
+.content button:hover {
+    background-color: rgb(122, 111, 111);
+    color: whitesmoke;
+}
+
+/* Стиль для футера */
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    margin-top: 26.8%;
+    height: 10%;
+    background: linear-gradient(-40deg, whitesmoke, rgb(122, 111, 111));
+}
+
+.footer h1 {
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+
+
